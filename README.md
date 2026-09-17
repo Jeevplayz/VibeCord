@@ -26,9 +26,10 @@ A [Vencord](https://vencord.dev/) plugin that adds a full Spotify player to Disc
    git clone https://github.com/Jeevplayz/VibeCord.git src/userplugins/VibeCord
    ```
    (Place it inside your Vencord source tree at `src/userplugins/`.)
-2. Rebuild Vencord:
+2. Rebuild Vencord & Inject:
    ```
    pnpm build
+   pnpm inject
    ```
 3. Restart Discord (or reload with Ctrl+R) and enable **VibeCord** in Vencord's plugin settings.
 
@@ -65,6 +66,12 @@ VibeCord talks to Spotify directly using OAuth, so you'll need your own free Spo
 
 - Spotify's API blocks third-party apps created after November 2024 from reading algorithmic playlists (Daily Mix, Discover Weekly, Release Radar) — this is a Spotify-side restriction, not a bug in the plugin.
 - Lyrics are fetched from [lrclib.net](https://lrclib.net), a free community lyrics database.
+
+## Credits
+
+- **Author:** JellyBean
+- Built on [Vencord](https://vencord.dev/)
+- Lyrics via [lrclib.net](https://lrclib.net)
 
 ## License
 
