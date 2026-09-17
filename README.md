@@ -13,6 +13,16 @@ A [Vencord](https://vencord.dev/) plugin that adds a full Spotify player to Disc
 - **Customizable look** — font, font size, album art size, accent color, and background color
 - Click song/artist/album text to open it in Spotify, right-click for a context menu with copy URL/URI
 
+## Screenshots
+
+| Mini player | Your Playlists |
+|---|---|
+| ![Mini player above the account panel]([assets/mini-player.png](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588026343524/image.png?ex=6aad1860&is=6aabc6e0&hm=7f7433e3a4178297953454e4dda555908b67b7945f69961dd87fb7a89594db84&)) | ![Playlists tab in the Spotify menu]([assets/playlists-tab.png](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588412350485/image.png?ex=6aad1860&is=6aabc6e0&hm=6e22e92dd728a1ea085bcefc5e95268e66f1e9aa72c0fb73b3a4ebffa229ac49&)) |
+
+| Search | Lyrics |
+|---|---|
+| ![Search tab]([assets/search-tab.pn](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588982906940/image.png?ex=6aad1860&is=6aabc6e0&hm=9b05204e6d6e92022f7c18d70bc200d447b11c0847a8e43d8c4514246594b4be&)g) | ![Synced lyrics tab]([assets/lyrics-tab.png](https://cdn.discordapp.com/attachments/1015664266394734684/1550097589502746624/image.png?ex=6aad1860&is=6aabc6e0&hm=ba2ff019e716b594047b4c47c51a061d4da14af427d4076c2dcd9639342b56b0&)) |
+
 ## Requirements
 
 - [Vencord](https://github.com/Vendicated/Vencord) installed
@@ -26,7 +36,7 @@ A [Vencord](https://vencord.dev/) plugin that adds a full Spotify player to Disc
    git clone https://github.com/Jeevplayz/VibeCord.git src/userplugins/VibeCord
    ```
    (Place it inside your Vencord source tree at `src/userplugins/`.)
-2. Rebuild Vencord & Inject:
+2. Rebuild & Inject Vencord:
    ```
    pnpm build
    pnpm inject
