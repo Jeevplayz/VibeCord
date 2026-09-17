@@ -17,13 +17,13 @@ A [Vencord](https://vencord.dev/) plugin that adds a full Spotify player to Disc
 
 ## Screenshots
 
-| Mini player                                                                                                                                                                                                                     | Your Playlists                                                                                                                                                                                                                |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Mini player above the account panel](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588026343524/image.png?ex=6aad1860\&is=6aabc6e0\&hm=7f7433e3a4178297953454e4dda555908b67b7945f69961dd87fb7a89594db84&) | ![Playlists tab in the Spotify menu](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588412350485/image.png?ex=6aad1860\&is=6aabc6e0\&hm=6e22e92dd728a1ea085bcefc5e95268e66f1e9aa72c0fb73b3a4ebffa229ac49&) |
+| Mini player                                                    | Your Playlists                                                 |
+| -------------------------------------------------------------- | -------------------------------------------------------------- |
+| ![Mini player above the account panel](assets/mini-player.png) | ![Playlists tab in the Spotify menu](assets/playlists-tab.png) |
 
-| Search                                                                                                                                                                                                 | Lyrics                                                                                                                                                                                                    |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Search tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550098909542486037/image.png?ex=6aad199b\&is=6aabc81b\&hm=18dc56f20e820e54add44e88e9ffd5e6acfd1f03f3d33346baad5d50b8b15537&) | ![Synced lyrics tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550097589502746624/image.png?ex=6aad1860\&is=6aabc6e0\&hm=ba2ff019e716b594047b4c47c51a061d4af427d4076c2dcd9639342b56b0&) |
+| Search                               | Lyrics                                      |
+| ------------------------------------ | ------------------------------------------- |
+| ![Search tab](assets/search-tab.png) | ![Synced lyrics tab](assets/lyrics-tab.png) |
 
 ## Requirements
 
