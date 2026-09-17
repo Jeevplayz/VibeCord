@@ -23,7 +23,7 @@ A [Vencord](https://vencord.dev/) plugin that adds a full Spotify player to Disc
 
 | Search                                                                                                                                                                                                 | Lyrics                                                                                                                                                                                                    |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Search tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550097588982906940/image.png?ex=6aad1860\&is=6aabc6e0\&hm=9b05204e6d6e92022f7c18d70bc200d447b11c0847a8e43d8c4514246594b4be&) | ![Synced lyrics tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550097589502746624/image.png?ex=6aad1860\&is=6aabc6e0\&hm=ba2ff019e716b594047b4c47c51a061d4af427d4076c2dcd9639342b56b0&) |
+| ![Search tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550098909542486037/image.png?ex=6aad199b\&is=6aabc81b\&hm=18dc56f20e820e54add44e88e9ffd5e6acfd1f03f3d33346baad5d50b8b15537&) | ![Synced lyrics tab](https://cdn.discordapp.com/attachments/1015664266394734684/1550097589502746624/image.png?ex=6aad1860\&is=6aabc6e0\&hm=ba2ff019e716b594047b4c47c51a061d4af427d4076c2dcd9639342b56b0&) |
 
 ## Requirements
 
