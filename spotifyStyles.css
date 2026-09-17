@@ -21,15 +21,15 @@
   --vc-spotify-font-size: 13px;
   --vc-spotify-album-size: 42px;
 
-  /* control sizing (tweak these four to taste) */
-  --vc-spotify-control-size: 28px;      /* prev / next hit area */
-  --vc-spotify-icon-size: 17px;         /* prev / next glyph */
-  --vc-spotify-play-size: 32px;         /* play / pause hit area */
-  --vc-spotify-play-icon-size: 20px;    /* play / pause glyph */
+  /* control sizing — smaller cluster so the time always fits */
+  --vc-spotify-control-size: 22px;      /* prev / next hit area */
+  --vc-spotify-icon-size: 13px;         /* prev / next glyph */
+  --vc-spotify-play-size: 25px;         /* play / pause hit area */
+  --vc-spotify-play-icon-size: 15px;    /* play / pause glyph */
 
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   padding: 8px 6px;
   border: 0;
   border-radius: 8px;
@@ -156,6 +156,7 @@
 .vc-spotify-time-row,
 #vc-spotify-time-row {
   display: flex;
+  flex-wrap: nowrap;
   gap: 3px;
   align-items: flex-start;
   font-size: calc(var(--vc-spotify-font-size) + 0.5px);
@@ -163,40 +164,50 @@
   color: var(--vc-spotify-secondary-text);
   margin-top: 1px;
   width: 100%;
+  min-width: 0;
 }
 
+/* Time text: never shrinks, never wraps — it always wins the squeeze */
 .vc-spotify-time-text {
+  flex: 0 0 auto;
   min-width: 20px;
+  white-space: nowrap;
+  overflow: visible;
+  text-overflow: clip;
   text-align: left;
   font-variant-numeric: tabular-nums;
 }
 
 .vc-spotify-time-sep {
+  flex: 0 0 auto;
   color: var(--vc-spotify-secondary-text);
 }
 
 /* Time Row Seek Bar */
 .vc-spotify-seek-row {
+  flex-wrap: nowrap;
   align-items: center;
-  gap: 6px;
+  gap: 4px;
   min-height: 20px;
+  min-width: 0;
   position: relative;
   isolation: isolate;
 }
 
 .vc-spotify-seek-row .vc-spotify-time-text {
   flex: 0 0 auto;
-  min-width: 30px;
+  min-width: 0;
   text-align: center;
 }
 
 .vc-spotify-slider-wrap {
-  flex: 1 1 auto;
+  flex: 1 1 20px;
   min-width: 0;
   height: 20px;
+  overflow: hidden;
   display: flex;
   align-items: center;
-  position: relative; top: -5px;
+  position: relative; top: -3px;
 }
 
 .vc-spotify-slider-wrap > * {
@@ -205,7 +216,7 @@
 
 .vc-spotify-progress-slider {
   flex: 1 1 auto;
-  min-width: 0;
+  min-width: 0 !important;
   width: 100% !important;
   margin: 0 !important;
   padding: 0 !important;
@@ -219,7 +230,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 4px;
+  gap: 2px;
   flex: 0 0 auto;
 
   /* centre the cluster against the album art / info column */
@@ -288,10 +299,10 @@
 
   #vc-spotify-player {
     padding: 6px 4px;
-    --vc-spotify-control-size: 26px;
-    --vc-spotify-icon-size: 16px;
-    --vc-spotify-play-size: 30px;
-    --vc-spotify-play-icon-size: 19px;
+    --vc-spotify-control-size: 20px;
+    --vc-spotify-icon-size: 12px;
+    --vc-spotify-play-size: 23px;
+    --vc-spotify-play-icon-size: 14px;
   }
 }
 
@@ -1240,10 +1251,10 @@
   --vc-spotify-text: var(--vc-spotify-fg);
   --vc-spotify-secondary-text: var(--vc-spotify-fg-muted);
   --vc-spotify-accent: var(--brand-experiment, #5865f2);
-  --vc-spotify-control-size: 28px;
-  --vc-spotify-icon-size: 16px;
-  --vc-spotify-play-size: 32px;
-  --vc-spotify-play-icon-size: 19px;
+  --vc-spotify-control-size: 22px;
+  --vc-spotify-icon-size: 13px;
+  --vc-spotify-play-size: 25px;
+  --vc-spotify-play-icon-size: 15px;
 
   display: flex;
   flex-direction: column;
@@ -1321,7 +1332,7 @@
 }
 
 .vc-spotify-menu-player-seek .vc-spotify-time-text {
-  flex: 0 0 auto;
+  flex: 0 0 30px;
   min-width: 30px;
   color: var(--vc-spotify-fg-muted);
   font-size: 11px;
